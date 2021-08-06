@@ -13,22 +13,22 @@
         <a href="#" class="logo">
           <img src="#" alt="logo__pic" />
         </a>
-        <nav>
-          <ul>
-            <li>Главная</li>
-            <li>Услуги</li>
-            <li>Отзывы</li>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">Главная</li>
+            <li class="menu__item">Услуги</li>
+            <li class="menu__item">Отзывы</li>
           </ul>
         </nav>
         <address class="contacts">
           <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          <h5 class="contacts__times">График Работы</h5>
+          <h5 class="contacts__txt">График Работы</h5>
         </address>
-        <div class="work-times">
+        <!-- <div class="work-times">
           <h5 class="work-times__hours">пн-вс: 09:00 - 20:00</h5>
           <h5 class="work-times__lunch">Обед: 14:00-14:30</h5>
         </div>
-        <!-- work_times появится по hover -->
+         work_times появится по hover. Это черновой вариант -->
       </header>
       <div class="intro">
         <h1>Авторские туры по Азии</h1>
@@ -45,16 +45,15 @@
           <h3 class="card__title">Таиланд</h3>
           <div class="conditions">
             <div class="conditions__days">
-              <i></i>
-              <!-- Тут хочу вставить svg иконку с fontawsome -->
+              <img src="#" alt="days" />
               7-12 дней
             </div>
             <div class="conditions__meal">
-              <i></i>
+              <img src="#" alt="breakfast" />
               Завтраки
             </div>
           </div>
-          <div class="card_description">
+          <div class="card__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Consequatur totam itaque labore in, similique maxime sint dolores
             velit dolorem nulla, dolore unde laboriosam numquam perferendis
@@ -67,38 +66,36 @@
           <h3 class="card__title">Бали</h3>
           <div class="conditions">
             <div class="conditions__days">
-              <i></i>
-              <!-- Тут хочу вставить svg иконку с fontawsome -->
+              <img src="#" alt="days" />
               7-12 дней
             </div>
             <div class="conditions__meal">
-              <i></i>
+              <img src="#" alt="breakfast" />
               Завтраки
             </div>
           </div>
-          <div class="card_description">
+          <div class="card__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Consequatur totam itaque labore in, similique maxime sint dolores
             velit dolorem nulla, dolore unde laboriosam numquam perferendis
             corrupti consequuntur officiis repellat veniam!
           </div>
-          <button class="card__button">Смотреть</button>
+          <button class="card__active-button">Смотреть</button>
         </div>
         <div class="card">
           <img src="" alt="3" />
           <h3 class="card__title">Индонезия</h3>
           <div class="conditions">
             <div class="conditions__days">
-              <i></i>
-              <!-- Тут хочу вставить svg иконку с fontawsome -->
+              <img src="#" alt="days" />
               7-12 дней
             </div>
             <div class="conditions__meal">
-              <i></i>
+              <img src="#" alt="breakfast" />
               Завтраки
             </div>
           </div>
-          <div class="card_description">
+          <div class="card__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Consequatur totam itaque labore in, similique maxime sint dolores
             velit dolorem nulla, dolore unde laboriosam numquam perferendis
@@ -108,11 +105,72 @@
         </div>
       </div>
       <!-- Tours -->
-      <div class="news"></div>
+      <div class="news">
+        <h2>Новости и акции</h2>
+        <div class="promotion">
+          <span class="promotion__date">Декабрь 2019</span>
+          <h3 class="promotion__title">Дешевые путевки на Новый год!</h3>
+          <p class="promotion__txt">Проведи новый год в Тайланде</p>
+          <img src="#" alt="promo img" class="promotion__img" />
+        </div>
+        <div class="promotion">
+          <span class="promotion__date">Декабрь 2019</span>
+          <h3 class="promotion__title">Акция для серфенгистов!</h3>
+          <p class="promotion__txt">
+            В сезон больших волн скидка на путевку в Тайланд на
+            островсерфенгистов. Удачного пути!
+          </p>
+          <img src="#" alt="promo img" class="promotion__img" />
+        </div>
+        <div class="paginator">
+          <div class="paginator__txt">Страница 1 из 7</div>
+          <ul class="paginator__list">
+            <il class="paginator__active-item"><a href="#">1</a></il>
+            <il class="paginator__item"><a href="#">2</a></il>
+            <il class="paginator__item"><a href="#">3</a></il>
+            <il class="paginator__item"><a href="#">4</a></il>
+            <il class="paginator__item"><a href="#">5</a></il>
+            <il class="paginator__item"><a href="#">6</a></il>
+            <il class="paginator__item"><a href="#">7</a></il>
+          </ul>
+        </div>
+      </div>
       <!-- News -->
       <div class="about-us"></div>
+      <img src="" alt="" class="about-us__img" />
+      <div class="about-info">
+        <h2 class="about-info__title">О нас</h2>
+        <p class="about-info__txt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          quisquam pariatur veritatis cupiditate accusantium illum nemo vel
+          labore repudiandae eaque eveniet dolores recusandae quod consequuntur
+          culpa doloremque, reiciendis vitae voluptatem!
+        </p>
+        <button class="button">Подробнее</button>
+        <img src="" alt="about us" class="about-info__img">
+      </div>
       <!-- About us -->
-      <footer></footer>
+      <footer>
+        <a href="#" class="logo">
+          <img src="#" alt="logo__pic" />
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">Главная</li>
+            <li class="menu__item">Услуги</li>
+            <li class="menu__item">Отзывы</li>
+          </ul>
+          <ul class="social">
+            <li class="social__item"><a href=""><img src="" alt="telegram"></a></li>
+            <li class="social__item"><a href=""><img src="" alt="vk"></a></li>
+            <li class="social__item"><a href=""><img src="" alt="facebook"></a></li>
+            <li class="social__item"><a href=""><img src="" alt="instagram"></a></li>
+          </ul>
+          <address class="contacts">
+            <h5 class="contacts__txt">Бесплатный звонок по России</h5>
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+      </footer>
     </div>
   </body>
 </html>

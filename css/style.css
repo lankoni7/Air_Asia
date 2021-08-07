@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.cards {
+  display: flex;
+  list-style-type: none;
+}

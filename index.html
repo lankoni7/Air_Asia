@@ -9,186 +9,223 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
-        <a href="#" class="logo">
-          <img src="#" alt="logo__pic" />
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">Главная</li>
-            <li class="menu__item">Услуги</li>
-            <li class="menu__item">Отзывы</li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          <span class="contacts__txt">График Работы</span>
-        </address>
-        <!-- <div class="work-times">
+      <div class="container">
+        <header class="header">
+          <a href="#" class="logo">
+            <img src="#" alt="logo__pic" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">Главная</li>
+              <li class="menu__item">Услуги</li>
+              <li class="menu__item">Отзывы</li>
+            </ul>
+          </nav>
+          <address class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone"
+              >8 800 700 30 30</a
+            >
+            <span class="contacts__txt">График Работы</span>
+          </address>
+          <!-- <div class="work-times">
           <h5 class="work-times__hours">пн-вс: 09:00 - 20:00</h5>
           <h5 class="work-times__lunch">Обед: 14:00-14:30</h5>
         </div>
          work_times появится по hover. Это черновой вариант -->
-      </header>
-      <section class="intro">
-        <h1>Авторские туры по Азии</h1>
-        <p>Открой для себя Азию</p>
-        <a href="#tours" class="button">Подробнее</a>
-      </section>
-      <!-- Intro -->
-      <section class="tours" id="tours">
-        <h2 class="title tours__title">Горящие туры</h2>
-        <div class="card">
-          <img src="#" alt="1" />
-          <h3 class="card__title">Таиланд</h3>
-          <div class="conditions">
-            <div class="conditions__days">
-              <img src="#" alt="days" />
-              7-12 дней
-            </div>
-            <div class="conditions__meal">
-              <img src="#" alt="breakfast" />
-              Завтраки
-            </div>
-          </div>
-          <div class="card__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consequatur totam itaque labore in, similique maxime sint dolores
-            velit dolorem nulla, dolore unde laboriosam numquam perferendis
-            corrupti consequuntur officiis repellat veniam!
-          </div>
-          <a href="#tours" class="button card__button button_type_secondary"
-            >Смотреть</a
-          >
-        </div>
-        <div class="card">
-          <img src="#" alt="2" />
-          <h3 class="card__title">Бали</h3>
-          <div class="conditions">
-            <div class="conditions__days">
-              <img src="#" alt="days" />
-              7-12 дней
-            </div>
-            <div class="conditions__meal">
-              <img src="#" alt="breakfast" />
-              Завтраки
-            </div>
-          </div>
-          <div class="card__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consequatur totam itaque labore in, similique maxime sint dolores
-            velit dolorem nulla, dolore unde laboriosam numquam perferendis
-            corrupti consequuntur officiis repellat veniam!
-          </div>
-          <a href="#tours" class="button card__button button_type_secondary"
-            >Смотреть</a
-          >
-        </div>
-        <div class="card">
-          <img src="#" alt="3" />
-          <h3 class="card__title">Индонезия</h3>
-          <div class="conditions">
-            <div class="conditions__days">
-              <img src="#" alt="days" />
-              7-12 дней
-            </div>
-            <div class="conditions__meal">
-              <img src="#" alt="breakfast" />
-              Завтраки
-            </div>
-          </div>
-          <div class="card__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consequatur totam itaque labore in, similique maxime sint dolores
-            velit dolorem nulla, dolore unde laboriosam numquam perferendis
-            corrupti consequuntur officiis repellat veniam!
-          </div>
-          <a href="#tours" class="button card__button button_type_secondary"
-            >Смотреть</a
-          >
-        </div>
-      </section>
-      <!-- Tours -->
-      <section class="news">
-        <h2 class="title news__title">Новости и акции</h2>
-        <div class="promotions">
-          <div class="promotion">
-            <span class="promotion__date">Декабрь 2019</span>
-            <h3 class="promotion__title">Дешевые путевки на Новый год!</h3>
-            <p class="promotion__txt">Проведи новый год в Тайланде</p>
-            <img src="#" alt="promo img" class="promotion__img" />
-          </div>
-          <div class="promotion">
-            <span class="promotion__date">Декабрь 2019</span>
-            <h3 class="promotion__title">Акция для серфенгистов!</h3>
-            <p class="promotion__txt">
-              В сезон больших волн скидка на путевку в Тайланд на
-              островсерфенгистов. Удачного пути!
-            </p>
-            <img src="#" alt="promo img" class="promotion__img" />
-          </div>
-        </div>
-        <div class="paginator">
-          <div class="paginator__txt">Страница 1 из 7</div>
-          <ul class="paginator__list">
-            <li class="paginator__item paginator__item-active">
-              <a href="#">1</a>
+        </header>
+        <section class="intro">
+          <h1>Авторские туры по Азии</h1>
+          <p>Открой для себя Азию</p>
+          <button href="#tours" class="button">Подробнее</button>
+        </section>
+        <!-- Intro -->
+        <section class="tours" id="tours">
+          <h2 class="title tours__title">Горящие туры</h2>
+          <ul class="cards">
+            <li class="card">
+              <img src="#" alt="Таиланд" />
+              <div class="card__main">
+                <h3 class="card__title">Таиланд</h3>
+                <div class="conditions">
+                  <div class="conditions-days">
+                    <img src="#" alt="days" class="conditions-days__logo" />
+                    <span class="conditions-days__desc">7-12 дней</span>
+                  </div>
+                  <div class="conditions-meal">
+                    <img
+                      src="#"
+                      alt="breakfast"
+                      class="conditions-meal__logo"
+                    />
+                    <span class="conditions-meal__desc">Завтраки</span>
+                  </div>
+                </div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Consequatur totam itaque labore in, similique maxime sint
+                  dolores velit dolorem nulla, dolore unde laboriosam numquam
+                  perferendis corrupti consequuntur officiis repellat veniam!
+                </div>
+                <button
+                  href="#tours"
+                  class="button card__button button_type_secondary"
+                >
+                  Смотреть
+                </button>
+              </div>
             </li>
-            <li class="paginator__item"><a href="#">2</a></li>
-            <li class="paginator__item"><a href="#">3</a></li>
-            <li class="paginator__item"><a href="#">4</a></li>
-            <li class="paginator__item"><a href="#">5</a></li>
-            <li class="paginator__item"><a href="#">6</a></li>
-            <li class="paginator__item"><a href="#">7</a></li>
+            <li class="card">
+              <img src="#" alt="Бали" />
+              <div class="card__main">
+                <h3 class="card__title">Бали</h3>
+                <div class="conditions">
+                  <div class="conditions-days">
+                    <img src="#" alt="days" class="conditions-days__logo" />
+                    <span class="conditions-days__desc">7-12 дней</span>
+                  </div>
+                  <div class="conditions-meal">
+                    <img
+                      src="#"
+                      alt="breakfast"
+                      class="conditions-meal__logo"
+                    />
+                    <span class="conditions-meal__desc">Завтраки</span>
+                  </div>
+                </div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Consequatur totam itaque labore in, similique maxime sint
+                  dolores velit dolorem nulla, dolore unde laboriosam numquam
+                  perferendis corrupti consequuntur officiis repellat veniam!
+                </div>
+                <button
+                  href="#tours"
+                  class="button card__button button_type_secondary"
+                >
+                  Смотреть
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <img src="#" alt="Индонезия" />
+              <div class="card__main">
+                <h3 class="card__title">Индонезия</h3>
+                <div class="conditions">
+                  <div class="conditions-days">
+                    <img src="#" alt="days" class="conditions-days__logo" />
+                    <span class="conditions-days__desc">7-12 дней</span>
+                  </div>
+                  <div class="conditions-meal">
+                    <img
+                      src="#"
+                      alt="breakfast"
+                      class="conditions-meal__logo"
+                    />
+                    <span class="conditions-meal__desc">Завтраки</span>
+                  </div>
+                </div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Consequatur totam itaque labore in, similique maxime sint
+                  dolores velit dolorem nulla, dolore unde laboriosam numquam
+                  perferendis corrupti consequuntur officiis repellat veniam!
+                </div>
+                <button
+                  href="#tours"
+                  class="button card__button button_type_secondary"
+                >
+                  Смотреть
+                </button>
+              </div>
+            </li>
           </ul>
-        </div>
-      </section>
-      <!-- News -->
-      <section class="about-us">
-        <img src="#" alt="" class="about-us__img" />
-        <div class="about-info">
-          <h2 class="title about-info__title">О нас</h2>
-          <p class="about-info__txt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            quisquam pariatur veritatis cupiditate accusantium illum nemo vel
-            labore repudiandae eaque eveniet dolores recusandae quod
-            consequuntur culpa doloremque, reiciendis vitae voluptatem!
-          </p>
-          <a class="button">Подробнее</a>
-          <img src="#" alt="about us" class="about-info__img" />
-        </div>
-      </section>
-      <!-- About us -->
-      <footer>
-        <a href="#" class="logo">
-          <img src="#" alt="logo__pic" />
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">Главная</li>
-            <li class="menu__item">Услуги</li>
-            <li class="menu__item">Отзывы</li>
+        </section>
+        <!-- Tours -->
+        <section class="news">
+          <h2 class="title news__title">Новости и акции</h2>
+          <div class="promotions">
+            <div class="promotion">
+              <span class="promotion__date">Декабрь 2019</span>
+              <h3 class="promotion__title">Дешевые путевки на Новый год!</h3>
+              <p class="promotion__txt">Проведи новый год в Тайланде</p>
+              <img src="#" alt="promo img" class="promotion__img" />
+            </div>
+            <div class="promotion">
+              <span class="promotion__date">Декабрь 2019</span>
+              <h3 class="promotion__title">Акция для серфенгистов!</h3>
+              <p class="promotion__txt">
+                В сезон больших волн скидка на путевку в Тайланд на
+                островсерфенгистов. Удачного пути!
+              </p>
+              <img src="#" alt="promo img" class="promotion__img" />
+            </div>
+          </div>
+          <div class="paginator">
+            <div class="paginator__txt">Страница 1 из 7</div>
+            <ul class="paginator__list">
+              <li class="paginator__item paginator__item-active">
+                <a href="#">1</a>
+              </li>
+              <li class="paginator__item"><a href="#">2</a></li>
+              <li class="paginator__item"><a href="#">3</a></li>
+              <li class="paginator__item"><a href="#">4</a></li>
+              <li class="paginator__item"><a href="#">5</a></li>
+              <li class="paginator__item"><a href="#">6</a></li>
+              <li class="paginator__item"><a href="#">7</a></li>
+            </ul>
+          </div>
+        </section>
+        <!-- News -->
+        <section class="about-us">
+          <img src="#" alt="" class="about-us__img" />
+          <div class="about-info">
+            <h2 class="title about-info__title">О нас</h2>
+            <p class="about-info__txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              quisquam pariatur veritatis cupiditate accusantium illum nemo vel
+              labore repudiandae eaque eveniet dolores recusandae quod
+              consequuntur culpa doloremque, reiciendis vitae voluptatem!
+            </p>
+            <button class="button">Подробнее</button>
+            <img src="#" alt="about us" class="about-info__img" />
+          </div>
+        </section>
+        <!-- About us -->
+        <footer>
+          <a href="#" class="logo">
+            <img src="#" alt="logo__pic" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">Главная</li>
+              <li class="menu__item">Услуги</li>
+              <li class="menu__item">Отзывы</li>
+            </ul>
+          </nav>
+          <ul class="social">
+            <li class="social__list">
+              <a href="" class="social__item"><img src="#" alt="telegram" /></a>
+            </li>
+            <li class="social__list">
+              <a href="" class="social__item"><img src="#" alt="vk" /></a>
+            </li>
+            <li class="social__list">
+              <a href="" class="social__item"><img src="#" alt="facebook" /></a>
+            </li>
+            <li class="social__list">
+              <a href="" class="social__item"
+                ><img src="#" alt="instagram"
+              /></a>
+            </li>
           </ul>
-        </nav>
-        <ul class="social">
-          <li class="social__list">
-            <a href="" class="social__item"><img src="#" alt="telegram" /></a>
-          </li>
-          <li class="social__list">
-            <a href="" class="social__item"><img src="#" alt="vk" /></a>
-          </li>
-          <li class="social__list">
-            <a href="" class="social__item"><img src="#" alt="facebook" /></a>
-          </li>
-          <li class="social__list">
-            <a href="" class="social__item"><img src="#" alt="instagram" /></a>
-          </li>
-        </ul>
-        <address class="contacts">
-          <span class="contacts__txt">Бесплатный звонок по России</span>
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        </address>
-      </footer>
+          <address class="contacts">
+            <span class="contacts__txt">Бесплатный звонок по России</span>
+            <a href="tel:+78007003030" class="contacts__phone"
+              >8 800 700 30 30</a
+            >
+          </address>
+        </footer>
+      </div>
     </div>
   </body>
 </html>

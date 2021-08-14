@@ -25,8 +25,8 @@ li {
   list-style-type: none;
 }
 .wrapper_wall {
-  background: url(../img/background1.png) center top no-repeat,
-    url(../img/background2.png) center bottom 160px no-repeat;
+  /* background: url(../img/background1.png) center top no-repeat, */
+  /* url(../img/background2.png) center bottom 160px no-repeat; */
 }
 .container {
   margin: 0 auto;
@@ -200,27 +200,36 @@ li {
   font-size: 16px;
   line-height: 1.31;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   margin-top: 15px;
 }
 
 .card__item {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 20px 0 7px;
+  margin: 5px 15px 0 7px;
+}
+.card__days-logo {
+  display: inline-block;
+  vertical-align: middle;
 }
 
+.card__days-desc {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
+}
 .card__days-desc_letters {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
-
 .card__description {
   font-size: 14px;
   line-height: 1.5;
-  margin: 24px 0;
+  margin: 22px 0;
 }
 
 .card__button {
+  margin-top: 2px;
   padding: 18px 30px;
   background: transparent;
   border: 1px solid #f5170e;
@@ -234,23 +243,21 @@ li {
 }
 
 .news {
-  padding-bottom: 130px;
+  margin-bottom: 130px;
 }
 .promotions {
   display: flex;
   justify-content: space-between;
-  margin: 51px 0;
+  margin: 50px 0 38px 0;
+  box-sizing: border-box;
 }
 
 .promotion {
+  box-sizing: border-box;
   position: relative;
   width: 557px;
-  height: 380px;
+  height: 394px;
   padding: 0 0 0 30px;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: flex-end; */
-  /* align-items: stretch; */
 }
 
 .promotion__content {
@@ -261,7 +268,7 @@ li {
   font-size: 14px;
   line-height: 1.5;
   display: block;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 
 .promotion__title {
@@ -291,7 +298,7 @@ li {
 .paginator__txt,
 .paginator__list {
   display: inline-block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .paginator__item {
@@ -409,27 +416,27 @@ li {
 }
 
 .social__item_telegram .social__link {
-  background: url(img/footer/telegram.png);
+  background: url(../img/footer/telegram.png);
 }
 .social__item_vk .social__link {
-  background: url(img/footer/vk.png);
+  background: url(../img/footer/vk.png);
 }
 .social__item_facebook .social__link {
-  background: url(img/footer/facebook.png);
+  background: url(../img/footer/facebook.png);
 }
 .social__item_instagram .social__link {
-  background: url(img/footer/instagram.png);
+  background: url(../img/footer/instagram.png);
 }
 
 .social__item_telegram .social__link:hover {
-  background: url(img/footer/telegram_h.png);
+  background: url(../img/footer/telegram_h.png);
 }
 .social__item_vk .social__link:hover {
-  background: url(img/footer/vk_h.png);
+  background: url(../img/footer/vk_h.png);
 }
 .social__item_facebook .social__link:hover {
-  background: url(img/footer/facebook_h.png);
+  background: url(../img/footer/facebook_h.png);
 }
 .social__item_instagram .social__link:hover {
-  background: url(img/footer/instagram_h.png);
+  background: url(../img/footer/instagram_h.png);
 }

@@ -24,20 +24,20 @@ ul,
 li {
   list-style-type: none;
 }
-.wrapper_wall {
-  /* background: url(../img/background1.png) center top no-repeat, */
-  /* url(../img/background2.png) center bottom 160px no-repeat; */
-}
 .container {
   margin: 0 auto;
   max-width: 1140px;
+}
+
+.main-page-wrapper {
+  background: url(../img/background1.png) center top no-repeat,
+    url(../img/background2.png) center bottom 160px no-repeat;
 }
 
 .header {
   position: relative;
   height: 110px;
   font-size: 14px;
-  /* padding: 30px 0; */
 }
 
 .logo {
@@ -51,9 +51,6 @@ li {
   position: absolute;
   top: 25px;
   left: 125px;
-
-  /* width: 70%;
-  padding-left: 8px; */
 }
 
 .menu__item {
@@ -263,6 +260,7 @@ li {
 .promotion__content {
   position: absolute;
   top: 253px;
+  z-index: 2;
 }
 .promotion__date {
   font-size: 14px;
@@ -288,7 +286,7 @@ li {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 .paginator {

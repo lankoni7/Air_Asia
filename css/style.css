@@ -25,8 +25,8 @@ li {
   list-style-type: none;
 }
 .wrapper_wall {
-  background: url(/img/backgtound1.png) center top no-repeat,
-    url(/img/background2.png) center bottom 160px no-repeat;
+  background: url(img/backgtound1.png) center top no-repeat,
+    url(img/background2.png) center bottom 160px no-repeat;
 }
 .container {
   margin: 0 auto;
@@ -342,7 +342,7 @@ li {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: url(/img/about_us/mountains.png) center center;
+  background: url(img/about_us/mountains.png) center center;
 }
 
 .about-content__title {
@@ -409,27 +409,27 @@ li {
 }
 
 .social__item_telegram .social__link {
-  background: url(/img/footer/telegram.png);
+  background: url(img/footer/telegram.png);
 }
 .social__item_vk .social__link {
-  background: url(/img/footer/vk.png);
+  background: url(img/footer/vk.png);
 }
 .social__item_facebook .social__link {
-  background: url(/img/footer/facebook.png);
+  background: url(img/footer/facebook.png);
 }
 .social__item_instagram .social__link {
-  background: url(/img/footer/instagram.png);
+  background: url(img/footer/instagram.png);
 }
 
 .social__item_telegram .social__link:hover {
-  background: url(/img/footer/telegram_h.png);
+  background: url(img/footer/telegram_h.png);
 }
 .social__item_vk .social__link:hover {
-  background: url(/img/footer/vk_h.png);
+  background: url(img/footer/vk_h.png);
 }
 .social__item_facebook .social__link:hover {
-  background: url(/img/footer/facebook_h.png);
+  background: url(img/footer/facebook_h.png);
 }
 .social__item_instagram .social__link:hover {
-  background: url(/img/footer/instagram_h.png);
+  background: url(img/footer/instagram_h.png);
 }

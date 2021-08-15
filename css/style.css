@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background: #001821;
+
   color: #fff;
 }
 h1,
@@ -31,25 +31,25 @@ li {
 
 .main-page-wrapper {
   background: url(../img/background1.png) center top no-repeat,
-    url(../img/background2.png) center bottom 160px no-repeat;
+    url(../img/background2.png) center bottom 165px no-repeat, #001821;
 }
 
 .header {
   position: relative;
-  height: 110px;
+  height: 113px;
   font-size: 14px;
 }
 
 .logo {
   position: absolute;
   display: block;
-  top: 26px;
+  top: 29px;
   left: 0;
 }
 
 .menu {
   position: absolute;
-  top: 25px;
+  top: 28px;
   left: 125px;
 }
 
@@ -77,7 +77,7 @@ li {
 .contacts {
   position: absolute;
   display: inline-block;
-  top: 25px;
+  top: 29px;
   right: 0;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -330,7 +330,7 @@ li {
 .about-us {
   min-height: 550px;
   position: relative;
-  margin-bottom: 55px;
+  margin-bottom: 56px;
 }
 .about-us__img {
   position: relative;
@@ -368,20 +368,20 @@ li {
   top: 0;
   left: 0;
 }
-.footer-container {
-  border-top: 1px solid #fff;
+.footer-container_border {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer {
   box-sizing: border-box;
   position: relative;
-  height: 125px;
-  margin-top: 20px;
+  height: 132px;
+  margin-top: 15px;
 }
 
 .social {
   position: absolute;
-  top: 30px;
+  top: 35px;
   right: 265px;
   margin: 0;
   padding: 0;
@@ -409,7 +409,7 @@ li {
 .contacts__txt_footer {
   font-size: 11px;
   line-height: 1.8;
-  bottom: 0;
+  bottom: 1px;
   right: 0;
 }
 

@@ -1,0 +1,11 @@
+.header {
+  min-height: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_service {
+  margin-bottom: 0;
+}

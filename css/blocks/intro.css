@@ -1,0 +1,10 @@
+.intro__wrapper {
+  margin-bottom: 250px;
+  width: 50%;
+}
+
+.intro__txt {
+  font-size: 18px;
+  line-height: 1.1;
+  margin: 0 0 33px 0;
+}

@@ -1,0 +1,33 @@
+.breadcrumbs {
+  margin-bottom: 25px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs__item:hover .breadcrumbs__link {
+  text-decoration: none;
+}
+.breadcrumbs__link {
+  color: #9a9a9a;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 1.35;
+  transition: all 0.2s;
+}
+
+.breadcrumbs__separator {
+  color: #9a9a9a;
+  font-size: 14px;
+  margin: 0 3px 0;
+}
+
+.breadcrumbs__link_active {
+  font-weight: 700;
+}

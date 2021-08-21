@@ -1,0 +1,16 @@
+.button {
+  box-sizing: border-box;
+  border-radius: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  background: #f5170e;
+  color: #fff;
+}
+
+.button:hover {
+  background: #da0100;
+}

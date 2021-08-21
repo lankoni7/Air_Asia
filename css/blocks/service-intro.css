@@ -1,0 +1,11 @@
+.service-intro {
+  height: 412px;
+  background: url(../../img/service/headline1.png) center center no-repeat;
+}
+
+.service-intro__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

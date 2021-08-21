@@ -1,0 +1,33 @@
+.contacts {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  text-align: end;
+}
+.contacts__phone {
+  font-size: 26px;
+  line-height: 1.36;
+  text-decoration: none;
+  color: #fff;
+}
+.contacts__txt {
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+  color: #98a4a8;
+  transition: all 0.2s;
+}
+
+.contacts__txt:hover {
+  color: #fff;
+}
+
+.contacts__txt_footer {
+  font-size: 11px;
+  line-height: 1.8;
+  bottom: 0;
+  right: 0;
+}

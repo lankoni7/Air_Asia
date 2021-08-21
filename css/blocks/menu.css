@@ -1,0 +1,20 @@
+.menu {
+  flex-basis: 264px;
+  margin-right: auto;
+}
+
+.menu__list {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.menu__link:hover {
+  color: #da0100;
+}

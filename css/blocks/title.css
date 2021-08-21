@@ -1,0 +1,17 @@
+.title-main {
+  font-size: 72px;
+  line-height: 1.36;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.36;
+  font-weight: 700;
+}
+
+.title_icon::after {
+  content: url(../../img/flame.png);
+  margin-left: 15px;
+}

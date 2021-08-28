@@ -2,6 +2,9 @@
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   text-align: end;
+  flex-basis: 191px;
+  /* display: flex;
+  flex-direction: column; */
 }
 .contacts__phone {
   font-size: 26px;

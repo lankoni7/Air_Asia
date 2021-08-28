@@ -1,0 +1,12 @@
+.form-sec {
+  padding: 63px 0 98px;
+  background: #f4f5f5;
+}
+
+.form-sec__title {
+  font-size: 48px;
+  line-height: 1.35;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 60px;
+}

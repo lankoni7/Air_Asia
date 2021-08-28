@@ -1,0 +1,19 @@
+.separator {
+  background: url(../../img/review/couple.png) right 13% bottom no-repeat,
+    url(../../img/review/background.png) center center no-repeat;
+  background-size: cover cover;
+  min-height: 363px;
+  display: flex;
+  align-items: center;
+}
+
+.separator__title {
+  font-size: 48px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.separator__content {
+  position: relative;
+  width: 55%;
+}

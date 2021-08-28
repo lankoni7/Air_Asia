@@ -9,8 +9,26 @@
   padding: 18px 40px;
   background: #f5170e;
   color: #fff;
+  transition: all 0.2s;
 }
 
 .button:hover {
   background: #da0100;
+}
+
+.button_entrance {
+  padding: 18px 58px;
+}
+
+.button_submit:hover {
+  background: #f5170e;
+}
+
+.button_reset {
+  background: #8e8e8e;
+  padding: 18px 44px;
+}
+
+.button_reset:hover {
+  background: #2b2b2b;
 }

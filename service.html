@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Услуги</title>
+    <title>Service</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="wrapper__content">
-        <section class="service-intro">
+        <section class="page-intro">
           <div class="container">
-            <div class="service-intro__content">
+            <div class="page-intro__content">
               <header class="header header_service">
                 <a href="#" class="logo logo_service">
                   <img src="img/logo.png" alt="logo__pic" class="logo__pic" />
@@ -26,7 +26,7 @@
                       <a href="service.html" class="menu__link">Услуги</a>
                     </li>
                     <li class="menu__item">
-                      <a href="#" class="menu__link">Отзывы</a>
+                      <a href="review.html" class="menu__link">Отзывы</a>
                     </li>
                   </ul>
                 </nav>
@@ -34,10 +34,20 @@
                   <a href="tel:+78007003030" class="contacts__phone"
                     >8 800 700 30 30</a
                   >
-                  <div class="contacts__txt">График работы</div>
+                  <div class="dropdown">
+                    <span class="contacts__txt">График работы </span>
+                    <div class="dropdown__menu">
+                      <ul class="dropdown__list">
+                        <li class="dropdown__work-times">
+                          пн-вс: 09:00 - 20:00
+                        </li>
+                        <li class="dropdown__lunch">Обед: 14:00-14:30</li>
+                      </ul>
+                    </div>
+                  </div>
                 </address>
               </header>
-              <h1 class="title-main">Услуги</h1>
+              <h1 class="page-intro__title">Услуги</h1>
               <nav class="breadcrumbs">
                 <ul class="breadcrumbs__list">
                   <li class="breadcrumbs__item">
@@ -56,7 +66,7 @@
             </div>
           </div>
         </section>
-        <!-- Service Intro -->
+        <!-- Page Intro -->
         <main class="places">
           <div class="container">
             <ul class="places__list">
@@ -111,47 +121,27 @@
               <div class="paginator__txt paginator__txt_service">
                 Страница 1 из 7
               </div>
-              <ul class="paginator__list">
-                <li
-                  class="
-                    paginator__item
-                    paginator__item_active
-                    paginator__item_active_service
-                  "
-                >
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >1</a
-                  >
+              <ul class="paginator__list paginator__list_service">
+                <li class="paginator__item paginator__item_active">
+                  <a href="#" class="paginator__link">1</a>
                 </li>
                 <li class="paginator__item">
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >2</a
-                  >
+                  <a href="#" class="paginator__link">2</a>
                 </li>
                 <li class="paginator__item">
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >3</a
-                  >
+                  <a href="#" class="paginator__link">3</a>
                 </li>
                 <li class="paginator__item">
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >4</a
-                  >
+                  <a href="#" class="paginator__link">4</a>
                 </li>
                 <li class="paginator__item">
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >5</a
-                  >
+                  <a href="#" class="paginator__link">5</a>
                 </li>
                 <li class="paginator__item">
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >6</a
-                  >
+                  <a href="#" class="paginator__link">6</a>
                 </li>
                 <li class="paginator__item">
-                  <a href="#" class="paginator__link paginator__link_service"
-                    >7</a
-                  >
+                  <a href="#" class="paginator__link">7</a>
                 </li>
               </ul>
             </div>
@@ -247,7 +237,7 @@
                   <a href="service.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="review.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>

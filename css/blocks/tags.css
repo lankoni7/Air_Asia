@@ -1,0 +1,23 @@
+.tags {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags__item {
+  margin: 0 12px 10px 0;
+}
+.tags__item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.tags__label {
+  cursor: pointer;
+}
+
+.tags__checkbox {
+  display: none;
+}
+.tags__checkbox:checked ~ .tags__tag {
+  background: #b9eae4;
+}

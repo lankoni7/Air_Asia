@@ -67,7 +67,6 @@
   background: transparent;
   border: 1px solid #f5170e;
   color: #f5170e;
-  transition: all 0.2s;
   align-self: flex-start;
   margin-top: auto;
 }

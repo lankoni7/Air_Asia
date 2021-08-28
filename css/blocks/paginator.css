@@ -3,31 +3,27 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-}
-
-.paginator__txt {
-  margin-left: 20px;
-}
-
-.paginator__txt_service {
-  color: #000;
-  margin-left: 45px;
-}
-.paginator__list {
+  /* min-width: 375px; */
   margin-left: 20px;
 }
 
 .paginator__list {
   display: flex;
-  justify-content: space-evenly;
-  flex-basis: 250px;
+  justify-content: space-between;
+  flex-basis: 240px;
+  margin-left: 20px;
+}
+.paginator__txt_service {
+  color: #000;
+  /* margin-left: 5px; */
 }
 
 .paginator__item_active .paginator__link {
   background: #fff;
   color: #f5170e;
 }
-.paginator__item_active_service .paginator__link {
+
+.paginator__list_service .paginator__item_active .paginator__link {
   background: #f5170e;
   color: #fff;
 }
@@ -44,16 +40,15 @@
   transition: all 0.2s;
 }
 
-.paginator__link_service {
+.paginator__list_service .paginator__link {
   color: #000;
 }
-
 .paginator__link:hover {
   background: #fff;
   color: #f5170e;
 }
 
-.paginator__link_service:hover {
+.paginator__list_service .paginator__link:hover {
   background: #f5170e;
   color: #fff;
 }

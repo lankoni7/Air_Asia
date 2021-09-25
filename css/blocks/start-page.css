@@ -5,5 +5,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.start-page__container {
+  width: 100%;
 }

@@ -3,19 +3,16 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  /* min-width: 375px; */
-  margin-left: 20px;
+  column-gap: 20px;
 }
 
 .paginator__list {
   display: flex;
   justify-content: space-between;
   flex-basis: 240px;
-  margin-left: 20px;
 }
 .paginator__txt_service {
   color: #000;
-  /* margin-left: 5px; */
 }
 
 .paginator__item_active .paginator__link {
